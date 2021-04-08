@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+html, body{
+    min-width: 500px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,.54);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+    width: 25%;
+    margin-left: auto;
+    padding: 10px;
+}
+nav a{
+    color: rgba(17, 9, 9, 0.842);
+    padding: 5px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.apps-dot{
+    margin-right: 5px;
+    width: 25px;
+}
+
+.profile-name{
+    margin-left: -10px;
+    width: 40px;
+}
+main{
+    margin: 10em auto;
+    text-align: center;
+}
+main img{
+    display: flex;
+    margin: auto;
+    margin-top: -25px;
+}
+input{
+    border: 1px solid rgb(194, 191, 191);
+    border-radius: 50px;
+    outline: none;
+    padding: 16px;
+    width: 550px;
+}
+
+input:hover{
+    box-shadow: rgb(182, 178, 178) 0 0 3px;
+}
+.search-lucky{
+    margin: 40px;
+    margin-bottom: 30px;
+}
+.search-lucky a{
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: rgba(17, 9, 9, 0.842);
+    font-size: 14px;
+    padding: 11px 18px;
+}
+.search-lucky a:hover{
+    box-shadow: rgb(182, 178, 178) 0 0px 3px;
+}
+.languages{
+    color: rgb(58, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.languages p,a{
+    margin: 5px;
+    text-decoration: none;
+}
+.languages a{
+    color: #1a0dab;
+}
+.languages a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #f2f2f2;
+    margin-top: 220px;
+}
+footer p{
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    padding: 14px 30px;
+    margin: 0;
+}
+.footer-links{
+    border-top: 1px solid rgb(194, 191, 191);
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 20px;
+}
+.footer-links a{
+    color: rgba(0,0,0,.54);
+}
